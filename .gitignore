@@ -53,3 +53,6 @@ inc/config.php
 inc/config.local.php
 inc/secrets.php
 inc/secrets.local.php
+
+*.zip
+ore/
