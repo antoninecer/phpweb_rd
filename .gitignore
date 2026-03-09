@@ -1,0 +1,55 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Logs / temp
+*.log
+*.tmp
+tmp/
+temp/
+cache/
+
+# Secrets / local config
+.env
+.env.*
+config.local.php
+inc/config.local.php
+inc/secrets.php
+inc/secrets.local.php
+
+# Databases / exports / backups
+*.sqlite
+*.sqlite3
+*.sql
+*.sql.gz
+*.dump
+*.bak
+*.old
+*.old1
+
+# Vendor / dependencies
+vendor/
+node_modules/
+
+# Runtime / uploads / generated content
+uploads/
+storage/
+sessions/
+
+# Large or binary files you probably do not want in first commit
+vizitky.pdf
+
+# Optional generated/scraped directories - uncomment if they are generated only
+# ore/
+# a/
+
+inc/connect.php
+inc/config.php
+inc/config.local.php
+inc/secrets.php
+inc/secrets.local.php

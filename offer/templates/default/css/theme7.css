@@ -1,0 +1,89 @@
+/* ==========================================================================
+	#pjPplImageBorder
+========================================================================== */
+[id^=pjWrapper] .pjPplThumbs .plThumbnail:hover .pjPplImageBorder { background: #1eaf84; }
+
+/* ==========================================================================
+	#Buttons
+========================================================================== */
+[id^=pjWrapper] .pjPplProductPanel .btn-default,
+[id^=pjWrapper] .pjPplProductMeta .btn-default { color: #fff; }
+[id^=pjWrapper] .btn-default,
+[id^=pjWrapper] .pjPplBtnGroupType .btn-default.btn-primary { border-color: #1eaf84; background: #1ec290; color: #fff; font-weight: bold; text-transform: uppercase; }
+[id^=pjWrapper] .btn-default:focus,
+[id^=pjWrapper] .btn-default:active,
+[id^=pjWrapper] .btn-default:hover,
+[id^=pjWrapper] .pjPplBtnGroupType .btn-default.btn-primary:hover { border-color: #1eaf84; background: #1eaf84; color: #fff; }
+
+[id^=pjWrapper] .pjPplBtnNav,
+[id^=pjWrapper] .pjPplHeading li a,
+[id^=pjWrapper] .pjPplBtnAcc,
+[id^=pjWrapper] .pjPplBtnGroupType .btn-default { color: #1ec290; font-weight: bold; text-transform: uppercase; }
+
+[id^=pjWrapper] .pjPplBtnGroupType .btn-default,
+[id^=pjWrapper] .pjPplBtnNav { border: 0; background: none; }
+[id^=pjWrapper] .pjPplBtnGroupType .btn-default:hover,
+[id^=pjWrapper] .pjPplBtnNav:hover { border: 0; background: none; color: #1eaf84; }
+[id^=pjWrapper] .pjPplHeading li a:hover,
+[id^=pjWrapper] .pjPplHeading li.pjPplBtnActive a,
+[id^=pjWrapper] .pjPplBtnAcc:hover { color: #1eaf84; }
+[id^=pjWrapper] .pjPplLanguage li a { font-weight: normal; }
+
+[id^=pjWrapper] .pjPplBtnGroupType .btn-default,
+[id^=pjWrapper] .pjPplBtnGroupType .btn-default:hover { border: 1px solid #ded8da; -webkit-box-shadow: none; box-shadow: none; }
+
+/* ==========================================================================
+	#pjPplHeading
+========================================================================== */
+[id^=pjWrapper] .pjPplHeading { background: #fff; }
+
+/* ==========================================================================
+	#pjPplFormSearch
+========================================================================== */
+[id^=pjWrapper] .pjPplFormSearch .form-control,
+[id^=pjWrapper] .pjPplFormSearch .control-label { color: #3d393a; }
+
+/* ==========================================================================
+	#pjPplProduct
+========================================================================== */
+[id^=pjWrapper] .pjPplProduct { background: #fff; }
+[id^=pjWrapper] .pjPplProduct p { color: #4a4e4f; }
+[id^=pjWrapper] .pjPplProductTitle,
+[id^=pjWrapper] .pjPplProductTitle a{ color: #3d393a; font-weight: bold; }
+[id^=pjWrapper] .pjPplProductPrice,
+[id^=pjWrapper] .pjPplProductType { color: #1ec290; }
+[id^=pjWrapper] .pjPplProductMeta li { color: #2b2c2e; }
+[id^=pjWrapper] .pjPplProduct .pjPplProductAddress { color: #3d393a; }
+
+[id^=pjWrapper] .pjPplProduct:hover .pjPplProductTitle,
+[id^=pjWrapper] .pjPplProduct:hover .pjPplProductAddress { color: #1eaf84; }
+
+/* ==========================================================================
+	#pjPplProductPanel
+========================================================================== */
+[id^=pjWrapper] .pjPplProductPanel .panel-heading { background: #7d8381; }
+[id^=pjWrapper] .pjPplProductPanel .panel-heading { color: #fff; text-transform: uppercase; }
+[id^=pjWrapper] .pjPplProductPanel .panel-body { color: #535c61; }
+[id^=pjWrapper] .pjPplProductPanel a,
+[id^=pjWrapper] .pjPplProductMeta li a { color: #1eaf84; }
+
+/* ==========================================================================
+	#pjPplFormAcc
+========================================================================== */
+[id^=pjWrapper] .pjPplFormAcc p { color: #4b4f4e; }
+[id^=pjWrapper] .pjPplFormAccTitle { color: #1eaf84; }
+[id^=pjWrapper] .pjPplFormAcc a { color: #1ec290; }
+[id^=pjWrapper] .pjPplFormAcc a:hover { color: #1eaf84; }
+
+/* ==========================================================================
+	#pjPplPagination
+========================================================================== */
+[id^=pjWrapper] .pjPplPagination li a { color: #fff; }
+
+[id^=pjWrapper] .pjPplPagination li a { border: 1px solid #ded8da; background: #fff; color: #1ec290; }
+[id^=pjWrapper] .pjPplPagination li a:hover { color: #1eaf84; }
+
+[id^=pjWrapper] .pjPplPagination > .active > a,
+[id^=pjWrapper] .pjPplPagination > .active > span { border-color: #1eaf84; background: #1ec290; }
+[id^=pjWrapper] .pjPplPagination > .active > a:hover,
+[id^=pjWrapper] .pjPplPagination > .active > span:hover { border-color: #1eaf84; background: #1eaf84; }

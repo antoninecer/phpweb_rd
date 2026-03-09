@@ -1,0 +1,131 @@
+/*===========Dashboard===============*/
+html[dir="rtl"] .dashboard_header .item .properties{
+	background: url(../img/backend/dashboard_properties.png) no-repeat right center;
+}
+html[dir="rtl"] .dashboard_header .item .stat{
+	right: 30px;
+}
+html[dir="rtl"] .dashboard_header .item .stat .info{
+	margin-left: 0px;
+	margin-right: 60px;
+}
+html[dir="rtl"] .menu a span{
+	float: right;
+	margin: 3px 0px 0 10px;
+}
+html[dir="rtl"] .dashboard_thumb{
+	float: right;
+	margin-right: 0px;
+	margin-left: 10px;
+}
+html[dir="rtl"] .dash_id span{
+	display: inline-block;
+	float: right;
+}
+html[dir="rtl"] .dash_date .float_left{
+	float: right !important;
+}
+html[dir="rtl"] .dash_date .float_right{
+	float: left !important;
+}
+html[dir="rtl"] .dash_date .gray{
+	display: inline-block;
+	float: right;
+	margin-left: 5px;
+}
+
+/*===========Infobox===============*/
+html[dir="rtl"] .notice-middle .notice-info{
+	float: right;
+	margin-left: 15px;
+}
+/*===========Tab===============*/
+html[dir="rtl"] .ui-tabs .ui-tabs-nav li{
+	float: right !important;
+}
+/*===========Search & Filter===============*/
+html[dir="rtl"] .b10 .float_left{
+	float: right !important;
+}
+html[dir="rtl"] .b10 .float_left.r10{
+	margin-right: 0px !important;
+	margin-left: 10px !important;
+}
+html[dir="rtl"] .b10 .float_right{
+	float: left !important;
+}
+html[dir="rtl"] .b10 .float_right .pj-button{
+	float: right !important;
+	margin-left: 5px;
+}
+/*===========Table===============*/
+html[dir="rtl"] .pj-table .pj-table-sort-label{
+	float: right !important;
+}
+html[dir="rtl"] .pj-table .pj-table-sort{
+	float: left !important;
+}
+html[dir="rtl"] .pj-table .pj-table-icon-menu{
+	margin-right: 4px;
+}
+html[dir="rtl"] .pj-table .pj-table-icon-edit{
+	margin-right: 0px;
+}
+html[dir="rtl"] .pj-table th{
+	text-align: right
+}
+html[dir="rtl"] .pj-status-1,
+html[dir="rtl"] .pj-status-T{background: #fff url(../img/backend/pj-active.png) 3px 3px no-repeat;}
+html[dir="rtl"] .pj-status-0,
+html[dir="rtl"] .pj-status-F{background: #fff url(../img/backend/pj-disabled.png) 3px 3px no-repeat;}
+html[dir="rtl"] .pj-status-E{background: #fff url(../img/backend/pj-icon-time.png) 3px 3px no-repeat;}
+html[dir="rtl"] .pj-status-cancelled, 
+html[dir="rtl"] .pj-status-Cancelled{background: #fff url(../img/backend/pj-disabled.png) 3px 3px no-repeat;}
+html[dir="rtl"] .pj-status-pending, 
+html[dir="rtl"] .pj-status-Pending{background: #fff url(../img/backend/pj-pending.png) 3px 3px no-repeat;}
+html[dir="rtl"] .pj-status-confirmed, 
+html[dir="rtl"] .pj-status-Confirmed{background: #fff url(../img/backend/pj-active.png) 3px 3px no-repeat;}
+
+html[dir="rtl"] .pj-paginator .pj-paginator-list,
+html[dir="rtl"] .pj-paginator .pj-paginator-goto,
+html[dir="rtl"] .pj-paginator .pj-paginator-button-actions{
+	float: right !important;
+}
+html[dir="rtl"] .pj-paginator .pj-paginator-total{
+	float: left !important;
+}
+/*===========pj-form===============*/
+html[dir="rtl"] .form .title{
+	float: right;
+	text-align: left;
+	margin-left: 5px;
+}
+html[dir="rtl"] em{
+	margin: 5px 155px 5px 0px;
+}
+
+html[dir="rtl"] .pj-form-langbar-item abbr{
+	margin: 7px 7px 0 7px;
+}
+html[dir="rtl"] .pj-checkbox.gradient input{
+	float: right;
+	margin-left: 6px;
+}
+html[dir="rtl"] .pj-checkbox.gradient.r20{
+	margin-right: 0px !important;
+	margin-left: 20px !important;
+}
+html[dir="rtl"] .custom-file{
+	float: right;
+}
+html[dir="rtl"] .left-content{
+	float: right;
+	margin-right: 0px;
+	width: 390px;
+}
+html[dir="rtl"] .right-content{
+	float: left;
+}
+html[dir="rtl"] .left-content .title{
+	
+}

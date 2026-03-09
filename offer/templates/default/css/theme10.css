@@ -1,0 +1,120 @@
+/* ==========================================================================
+	#pjPplImageBorder
+========================================================================== */
+[id^=pjWrapper] .pjPplThumbs .plThumbnail:hover .pjPplImageBorder { background: #d31f1e; }
+
+/* ==========================================================================
+	#Buttons
+========================================================================== */
+[id^=pjWrapper] .pjPplProductPanel .btn-default,
+[id^=pjWrapper] .pjPplProductMeta .btn-default { color: #fff; }
+[id^=pjWrapper] .btn-default,
+[id^=pjWrapper] .pjPplBtnGroupType .btn-default.btn-primary { border-color: #073163; color: #fff; text-transform: uppercase; 
+	background: rgb(25,70,127);
+	background: -moz-linear-gradient(top,  rgba(25,70,127,1) 0%, rgba(25,71,123,1) 3%, rgba(24,69,126,1) 5%, rgba(23,68,125,1) 13%, rgba(20,66,118,1) 37%, rgba(17,58,110,1) 66%, rgba(13,55,105,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(25,70,127,1)), color-stop(3%,rgba(25,71,123,1)), color-stop(5%,rgba(24,69,126,1)), color-stop(13%,rgba(23,68,125,1)), color-stop(37%,rgba(20,66,118,1)), color-stop(66%,rgba(17,58,110,1)), color-stop(100%,rgba(13,55,105,1)));
+	background: -webkit-linear-gradient(top,  rgba(25,70,127,1) 0%,rgba(25,71,123,1) 3%,rgba(24,69,126,1) 5%,rgba(23,68,125,1) 13%,rgba(20,66,118,1) 37%,rgba(17,58,110,1) 66%,rgba(13,55,105,1) 100%);
+	background: -o-linear-gradient(top,  rgba(25,70,127,1) 0%,rgba(25,71,123,1) 3%,rgba(24,69,126,1) 5%,rgba(23,68,125,1) 13%,rgba(20,66,118,1) 37%,rgba(17,58,110,1) 66%,rgba(13,55,105,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(25,70,127,1) 0%,rgba(25,71,123,1) 3%,rgba(24,69,126,1) 5%,rgba(23,68,125,1) 13%,rgba(20,66,118,1) 37%,rgba(17,58,110,1) 66%,rgba(13,55,105,1) 100%);
+	background: linear-gradient(to bottom,  rgba(25,70,127,1) 0%,rgba(25,71,123,1) 3%,rgba(24,69,126,1) 5%,rgba(23,68,125,1) 13%,rgba(20,66,118,1) 37%,rgba(17,58,110,1) 66%,rgba(13,55,105,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#19467f', endColorstr='#0d3769',GradientType=0 );
+}
+[id^=pjWrapper] .btn-default:hover,
+[id^=pjWrapper] .pjPplBtnGroupType .btn-default.btn-primary:hover { border-color: #073163; color: #fff; 
+	background: rgb(13,55,105);
+	background: -moz-linear-gradient(top,  rgba(13,55,105,1) 0%, rgba(17,58,110,1) 34%, rgba(20,66,118,1) 63%, rgba(23,68,125,1) 87%, rgba(24,69,126,1) 95%, rgba(25,71,123,1) 97%, rgba(25,70,127,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(13,55,105,1)), color-stop(34%,rgba(17,58,110,1)), color-stop(63%,rgba(20,66,118,1)), color-stop(87%,rgba(23,68,125,1)), color-stop(95%,rgba(24,69,126,1)), color-stop(97%,rgba(25,71,123,1)), color-stop(100%,rgba(25,70,127,1)));
+	background: -webkit-linear-gradient(top,  rgba(13,55,105,1) 0%,rgba(17,58,110,1) 34%,rgba(20,66,118,1) 63%,rgba(23,68,125,1) 87%,rgba(24,69,126,1) 95%,rgba(25,71,123,1) 97%,rgba(25,70,127,1) 100%);
+	background: -o-linear-gradient(top,  rgba(13,55,105,1) 0%,rgba(17,58,110,1) 34%,rgba(20,66,118,1) 63%,rgba(23,68,125,1) 87%,rgba(24,69,126,1) 95%,rgba(25,71,123,1) 97%,rgba(25,70,127,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(13,55,105,1) 0%,rgba(17,58,110,1) 34%,rgba(20,66,118,1) 63%,rgba(23,68,125,1) 87%,rgba(24,69,126,1) 95%,rgba(25,71,123,1) 97%,rgba(25,70,127,1) 100%);
+	background: linear-gradient(to bottom,  rgba(13,55,105,1) 0%,rgba(17,58,110,1) 34%,rgba(20,66,118,1) 63%,rgba(23,68,125,1) 87%,rgba(24,69,126,1) 95%,rgba(25,71,123,1) 97%,rgba(25,70,127,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d3769', endColorstr='#19467f',GradientType=0 );
+}
+
+[id^=pjWrapper] .pjPplBtnNav,
+[id^=pjWrapper] .pjPplHeading li a,
+[id^=pjWrapper] .pjPplBtnAcc,
+[id^=pjWrapper] .pjPplBtnGroupType .btn-default { color: #6788b1; }
+
+[id^=pjWrapper] .pjPplBtnGroupType .btn-default,
+[id^=pjWrapper] .pjPplBtnNav { border-color: #bebabb; 
+	background: rgb(255,255,255);
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(249,247,248,1) 60%, rgba(246,245,243,1) 70%, rgba(248,244,243,1) 80%, rgba(245,241,240,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(60%,rgba(249,247,248,1)), color-stop(70%,rgba(246,245,243,1)), color-stop(80%,rgba(248,244,243,1)), color-stop(100%,rgba(245,241,240,1)));
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(249,247,248,1) 60%,rgba(246,245,243,1) 70%,rgba(248,244,243,1) 80%,rgba(245,241,240,1) 100%);
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(249,247,248,1) 60%,rgba(246,245,243,1) 70%,rgba(248,244,243,1) 80%,rgba(245,241,240,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(249,247,248,1) 60%,rgba(246,245,243,1) 70%,rgba(248,244,243,1) 80%,rgba(245,241,240,1) 100%);
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(249,247,248,1) 60%,rgba(246,245,243,1) 70%,rgba(248,244,243,1) 80%,rgba(245,241,240,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f5f1f0',GradientType=0 );
+}
+[id^=pjWrapper] .pjPplBtnGroupType .btn-default:hover,
+[id^=pjWrapper] .pjPplHeading .pjPplLanguage.open .pjPplBtnNav,
+[id^=pjWrapper] .pjPplBtnNav:hover,
+[id^=pjWrapper] .pjPplBtnNav:focus { border-color: #bebabb; color: #073163; 
+	background: rgb(245,241,240);
+	background: -moz-linear-gradient(top,  rgba(245,241,240,1) 0%, rgba(248,244,243,1) 20%, rgba(246,245,243,1) 30%, rgba(249,247,248,1) 40%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(245,241,240,1)), color-stop(20%,rgba(248,244,243,1)), color-stop(30%,rgba(246,245,243,1)), color-stop(40%,rgba(249,247,248,1)), color-stop(100%,rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(top,  rgba(245,241,240,1) 0%,rgba(248,244,243,1) 20%,rgba(246,245,243,1) 30%,rgba(249,247,248,1) 40%,rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(top,  rgba(245,241,240,1) 0%,rgba(248,244,243,1) 20%,rgba(246,245,243,1) 30%,rgba(249,247,248,1) 40%,rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(245,241,240,1) 0%,rgba(248,244,243,1) 20%,rgba(246,245,243,1) 30%,rgba(249,247,248,1) 40%,rgba(255,255,255,1) 100%);
+	background: linear-gradient(to bottom,  rgba(245,241,240,1) 0%,rgba(248,244,243,1) 20%,rgba(246,245,243,1) 30%,rgba(249,247,248,1) 40%,rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f1f0', endColorstr='#ffffff',GradientType=0 );
+}
+[id^=pjWrapper] .pjPplHeading li a:hover,
+[id^=pjWrapper] .pjPplHeading li.pjPplBtnActive a { color: #073163; }
+
+/* ==========================================================================
+	#pjPplHeading
+========================================================================== */
+[id^=pjWrapper] .pjPplHeading { background: #f7f7f7; }
+
+/* ==========================================================================
+	#pjPplFormSearch
+========================================================================== */
+[id^=pjWrapper] .pjPplFormSearch .form-control,
+[id^=pjWrapper] .pjPplFormSearch .control-label { color: #363739; }
+
+/* ==========================================================================
+	#pjPplProduct
+========================================================================== */
+[id^=pjWrapper] .pjPplProduct { background: #edf0f5; }
+[id^=pjWrapper] .pjPplProduct p { color: #6a7577; }
+[id^=pjWrapper] .pjPplProductTitle,
+[id^=pjWrapper] .pjPplProductTitle a{ color: #343839; text-transform: uppercase; }
+[id^=pjWrapper] .pjPplProductPrice,
+[id^=pjWrapper] .pjPplProductType { color: #d31f1e; }
+[id^=pjWrapper] .pjPplProductMeta li { color: #073163; }
+[id^=pjWrapper] .pjPplProduct .pjPplProductAddress { color: #6888af; }
+
+[id^=pjWrapper] .pjPplProduct:hover .pjPplProductTitle,
+[id^=pjWrapper] .pjPplProduct:hover .pjPplProductAddress { color: #073163; }
+
+/* ==========================================================================
+	#pjPplProductPanel
+========================================================================== */
+[id^=pjWrapper] .pjPplProductPanel .panel-heading { background: #edf0f5; }
+[id^=pjWrapper] .pjPplProductPanel .panel-heading { color: #678ab2; text-transform: uppercase; }
+[id^=pjWrapper] .pjPplProductPanel .panel-body { color: #4c4e4d; }
+[id^=pjWrapper] .pjPplProductPanel a,
+[id^=pjWrapper] .pjPplProductMeta li a { color: #d31f20; }
+
+/* ==========================================================================
+	#pjPplFormAcc
+========================================================================== */
+[id^=pjWrapper] .pjPplFormAcc p { color: #4c4e4d; }
+[id^=pjWrapper] .pjPplFormAccTitle { color: #d31f20; }
+[id^=pjWrapper] .pjPplFormAcc a { color: #de3536; }
+[id^=pjWrapper] .pjPplFormAcc a:hover { color: #d31f20; }
+
+/* ==========================================================================
+	#pjPplPagination
+========================================================================== */
+[id^=pjWrapper] .pjPplPagination li a { color: #fff; }
+
+[id^=pjWrapper] .pjPplPagination li a { border: 1px solid #ded8da; background: #fff; color: #de3536; }
+[id^=pjWrapper] .pjPplPagination li a:hover { color: #d31f20; }
+
+[id^=pjWrapper] .pjPplPagination > .active > a,
+[id^=pjWrapper] .pjPplPagination > .active > span { border-color: #d31f20; background: #de3536; }
+[id^=pjWrapper] .pjPplPagination > .active > a:hover,
+[id^=pjWrapper] .pjPplPagination > .active > span:hover { border-color: #d31f20; background: #d31f20; }
