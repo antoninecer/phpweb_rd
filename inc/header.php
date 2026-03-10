@@ -1,23 +1,14 @@
 <?php
-// --- Jazyková detekce a přepínač ---
+// --- Jazyková detekce je nyní v bootstrap.php přes LANG konstantu ---
 $supportedLangs = ['cs', 'en', 'de', 'it'];
-$defaultLang = 'cs';
 
-// 1. Zpracuj jazyk z GET a ulož do cookie
+// 1. Zpracuj jazyk z GET a ulož do cookie (v bootstrap.php je detekce, ale zde můžeme pořešit redirect)
 if (isset($_GET['lang']) && in_array($_GET['lang'], $supportedLangs)) {
-    setcookie('lang', $_GET['lang'], time() + (86400 * 30), "/"); // 30 dní
-    $_COOKIE['lang'] = $_GET['lang']; // pro okamžité použití
-    header("Location: " . strtok($_SERVER["REQUEST_URI"], '?')); // přesměruj bez ?lang=...
+    header("Location: " . strtok($_SERVER["REQUEST_URI"], '?'));
     exit;
 }
 
-// 2. Urči jazyk
-if (isset($_COOKIE['lang']) && in_array($_COOKIE['lang'], $supportedLangs)) {
-    $lang = $_COOKIE['lang'];
-} else {
-    $browserLang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'] ?? '', 0, 2);
-    $lang = in_array($browserLang, $supportedLangs) ? $browserLang : $defaultLang;
-}
+$lang = LANG;
 
 // --- Výběr náhodného banneru ---
 $banners = glob(__DIR__ . '/../assets/img/banner/*.jpg');
@@ -31,7 +22,7 @@ $pageTitles = [
   'de' => 'Right Done – Immobilien am Meer',
   'it' => 'Right Done – Case al mare'
 ];
-$pageTitle = $pageTitles[$lang] ?? $pageTitles[$defaultLang];
+$pageTitle = $pageTitles[$lang] ?? $pageTitles['cs'];
 ?>
 <!DOCTYPE html>
 <html lang="<?= htmlspecialchars($lang) ?>">

@@ -7,6 +7,7 @@ $menu = [
     'contact' => 'Kontakt',
     'faq' => 'Často kladené otázky',
     'movies' => 'Videa',
+    'properties' => 'Nemovitosti',
     'offer' => 'Nabídky',
   ],
   'en' => [
@@ -16,6 +17,7 @@ $menu = [
     'contact' => 'Contact',
     'faq' => 'FAQ',
     'movies' => 'Videos',
+    'properties' => 'Properties',
     'offer' => 'Offers',
   ],
   'de' => [
@@ -25,6 +27,7 @@ $menu = [
     'contact' => 'Kontakt',
     'faq' => 'Häufige Fragen',
     'movies' => 'Videos',
+    'properties' => 'Immobilien',
     'offer' => 'Angebote',
   ],
   'it' => [
@@ -34,21 +37,22 @@ $menu = [
     'contact' => 'Contatto',
     'faq' => 'Domande frequenti',
     'movies' => 'Video',
+    'properties' => 'Immobili',
     'offer' => 'Offerte',
   ]
 ];
 
-$lang = $_COOKIE['lang'] ?? substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-$lang = in_array($lang, ['cs', 'en', 'de', 'it']) ? $lang : 'cs';
+$lang = LANG;
 ?>
 <nav class="main-menu">
   <ul>
     <li><a href="/index.php"><?= htmlspecialchars($menu[$lang]['home']) ?></a></li>
+    <li><a href="/list_properties.php"><?= htmlspecialchars($menu[$lang]['properties']) ?></a></li>
     <li><a href="/about.php"><?= htmlspecialchars($menu[$lang]['about']) ?></a></li>
     <li><a href="/services.php"><?= htmlspecialchars($menu[$lang]['services']) ?></a></li>
-    <li><a href="/contact.php"><?= htmlspecialchars($menu[$lang]['contact']) ?></a></li>
     <li><a href="/faq.php"><?= htmlspecialchars($menu[$lang]['faq']) ?></a></li>
     <li><a href="/videos.php"><?= htmlspecialchars($menu[$lang]['movies']) ?></a></li>
+    <li><a href="/contact.php"><?= htmlspecialchars($menu[$lang]['contact']) ?></a></li>
     <li><a href="/offer/preview.php"><?= htmlspecialchars($menu[$lang]['offer']) ?></a></li>
   </ul>
 </nav>

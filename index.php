@@ -1,11 +1,9 @@
 <?php
-require_once __DIR__ . '/inc/connect.php';
-session_start();
+require_once __DIR__ . '/inc/bootstrap.php';
+$lang = LANG;
+
 include __DIR__ . '/inc/header.php';
 include __DIR__ . '/inc/menu.php';
-
-$langCode = $_COOKIE['lang'] ?? substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-$lang = in_array($langCode, ['cs', 'en', 'de', 'it']) ? $langCode : 'cs';
 
 $titles = [
   'cs' => 'Bydlení v Itálii u moře dostupné pro každého 🇮🇹',
@@ -152,7 +150,7 @@ $passportInfo = [
 
 <section class="main-content" style="padding: 40px 20px;">
   <h1 style="text-align: center; color: #2e9c44; font-size: 28px; margin-bottom: 30px;">
-    <?= $titles[$lang] ?>
+    <?= $titles[LANG] ?>
   </h1>
 
   <!-- Dvousloupcové rozložení -->
@@ -160,7 +158,7 @@ $passportInfo = [
     
 <!-- Levý sloupec: text + gif -->
 <div style="flex: 1 1 350px; max-width: 580px;">
-  <?= $translations[$lang] ?>
+  <?= $translations[LANG] ?>
   <div style="margin-top: 20px; text-align: center;">
   
   <div style="max-width: 720px; margin: 0 auto; text-align: center;">
@@ -181,20 +179,20 @@ $passportInfo = [
 <!-- Pravý sloupec: tabulka + odkazy -->
 <div style="flex: 1 1 300px; max-width: 420px; margin-top: 6px;">
   <div style="background: #f9f9f9; padding: 16px 18px 14px; border-radius: 10px; box-shadow: 0 0 6px rgba(0,0,0,0.05); font-size: 15px; line-height: 1.5;">
-    <?= $travelInfo[$lang] ?>
+    <?= $travelInfo[LANG] ?>
 
 
     <hr style="margin: 10px 0;">
     <p style="margin-bottom: 6px; font-weight: bold;">Plánování trasy:</p>
     <ul style="list-style: none; padding-left: 0; margin: 0;">
-  <?php foreach ($routeLinks[$lang] as $link): ?>
+  <?php foreach ($routeLinks[LANG] as $link): ?>
     <li><a href="<?= htmlspecialchars($link['url']) ?>" target="_blank"><?= htmlspecialchars($link['label']) ?></a></li>
   <?php endforeach; ?>
 </ul>
 <hr style="margin: 10px 0;"><br>
 <a href="https://re.rightdone.eu/" target="_blank" >.</a>
 <br>
-<?= $passportInfo[$lang] ?>
+<?= $passportInfo[LANG] ?>
   </div>
 </div>
 
@@ -207,7 +205,7 @@ $passportInfo = [
         'en' => 'Request a free consultation',
         'de' => 'Kostenlose Beratung anfordern',
         'it' => 'Richiedi una consulenza gratuita'
-      ][$lang] ?>
+      ][LANG] ?>
     </a>
   </div>
 </section>

@@ -1,11 +1,8 @@
 <?php
-require_once __DIR__ . '/inc/connect.php';
-session_start();
+require_once __DIR__ . '/inc/bootstrap.php';
+$lang = LANG;
 include __DIR__ . '/inc/header.php';
 include __DIR__ . '/inc/menu.php';
-
-$langCode = $_COOKIE['lang'] ?? substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-$lang = in_array($langCode, ['cs', 'en', 'de', 'it']) ? $langCode : 'cs';
 
 $translations = [
   'cs' => "<h1>Naše služby</h1>

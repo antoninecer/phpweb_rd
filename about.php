@@ -1,6 +1,6 @@
 <?php
-require_once __DIR__ . '/inc/connect.php';
-session_start();
+require_once __DIR__ . '/inc/bootstrap.php';
+$lang = LANG;
 include __DIR__ . '/inc/header.php';
 include __DIR__ . '/inc/menu.php';
 ?>

@@ -1,6 +1,6 @@
 <?php
-require_once __DIR__ . '/inc/connect.php';
-session_start();
+require_once __DIR__ . '/inc/bootstrap.php';
+$lang = LANG;
 include __DIR__ . '/inc/header.php';
 include __DIR__ . '/inc/menu.php';
 
@@ -66,8 +66,6 @@ $videos = [
     ]
   ]
 ];
-
-$lang = $_COOKIE['lang'] ?? 'cs';
 ?>
 <section class="video-gallery" style="margin: 40px auto; max-width: 1200px; padding: 0 15px;">
   <h1 style="text-align: center; margin-bottom: 30px;">
